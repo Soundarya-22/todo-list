@@ -1,0 +1,78 @@
+.container{
+    border: 5px solid rgb(15, 15, 15);
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 500px;
+    background-color: rgb(231, 134, 6);
+    border-radius: 5px;
+
+    
+}
+h1{
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: inset;
+    border-style: ridge;
+    background-color: brown;
+    color: white;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+input{
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px rgb(224, 217, 217);
+
+    
+}
+
+.todo_add_btn{
+    padding: 3px;
+    margin: 3px;
+    font-size: 25px;
+    background-color: rgb(59, 9, 240);
+    color: bisque;
+    box-shadow: 3px 3px 3px rgb(199, 243, 2);
+    font-style: italic;
+}
+.done{
+    background-color: green;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+
+}
+.remove{
+    background-color:red;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+    
+}
+.todo_list_lis{
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-style: inherit;
+    background-color: rgb(7, 7, 7);
+    color:white;
+
+
+}
+li{
+    color: white;
+}
+
